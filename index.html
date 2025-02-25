@@ -7,71 +7,98 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo">Header Logo</div>
-        <div class="link-holder">
-            <div class="header-link"><a href="#">header link one</a></div>
-            <div class="header-link"><a href="#">header link two</a></div>        
-            <div class="header-link"><a href="#">header link three</a></div>
-        </div>
-    </div>
-    <div class="sub-header">
-        <div class="hero">
-            <div class="hero-text">This website is awesome</div>
-            <div class="hext-sub">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-            <div class="hero-button"><button>Sign up</button></div>
-        </div>    
-        <div class="img"><img src="./photo.jpg"></div>
-    </div>
-    <div class="body">
-        <div class="header">
-            Some random information
-        </div>
-        <div class="container">
-            <div class="info">
-                <img src="" alt="">
-                <div class="text" >this is some subtext under an illustration or image</div>
-            </div>
-            <div class="info">
-                <img src="" alt="">
-                <div class="text" >this is some subtext under an illustration or image</div>
-            </div>
-            <div class="info">
-                <img src="" alt="">
-                <div class="text" >this is some subtext under an illustration or image</div>
-            </div>
-            <div class="info">
-                <img src="" alt="">
-                <div class="text" >this is some subtext under an illustration or image</div>
-            </div>
-        </div>
-        <div class="quote">
-            <div class="text">
-                This is an inspiring quote, or a testimonial from a customer. Mayberit's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-            </div>
-            <div class="speaker">
-                -Thor, God of Thunder
-            </div>
-        </div>
-        <div class="button">
-            <div class="container">
-                <div class="left-container">
-                    <div class="text">
-                        Call to action! It's time!
-                    </div>
-                    <div class="lower">
-                        Sign up for our product by clicking that button right over there!
-                    </div>
-                </div>
-                <div class="click">
-                    Sign up
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            Copyright @ The Oding Project 2021
-        </div>
 
+    <!-- header -->
+     <div id="header">
+        <div class="nav">
+            <div class="logo">
+                <img src="./image/icon.jpg">
+                <a class="logo_text" href="#main">Discover <span>Hokkaido</span></a>
+            </div>
+
+            <ul class="nav_list">
+                <li><a class="link" href="#main">Home</a></li>
+                <li><a class="link" href="#information">Information</a></li>        
+                <li><a class="link" href="#hotels">Hotels</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main section -->
+    <div id="main">
+        <div class="main_container">
+            <div class="text">
+                <h1>Hokkaido, Japan</h1>
+
+                <p>Locating at the north part of this beautiful country, Hokkaido is being called as the living paradise on Earth. In here you can enjoy yourself in the nature around the year.</p>
+
+                <a class="button" href="#information">Learn More!</a>
+            </div>    
+
+            <div class="img">
+                <img src="./image/hokkaido.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- information -->
+    <div id="information">
+        <h2>Learn more about <span>Hokkaido</span> aroudn the year!</h2>
+        <div class="container">
+            <div class="card">
+                <p class="card_title">Spring</p>
+                <img src="./image/haru.jpg" alt="">
+                <p>Sakura is blosoming in the Spring of Hokkaido</p>
+            </div>
+            <div class="card">
+                <p class="card_title">Summer</p>
+                <img src="./image/natsu.jpg" alt="">
+                <p>Lavender is the symbol of Furano in Hokkaido. </p>
+            </div><div class="card">
+                <p class="card_title">Fall</p>
+                <img src="./image/aki.jpg" alt="">
+                <p>Fall is the best time to visit these golden leafs</p>
+            </div><div class="card">
+                <p class="card_title">Winter</p>
+                <img src="./image/fuyu.jpg" alt="">
+                <p>Powder snow is what they called. Come enjoy all kinds of winter sport here</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- quote -->
+    <div id="quote">
+        <p class="quote_text">
+            Hokkaido is always my first choice when deciding destination for solo trip, road trip, family trip, or even ski trip. It just never bored me and bring me suprise every time.
+        </p>
+        <p class="quote_reference">
+            -Emiko Mikami
+        </p>
+    </div>
+
+    <!-- hotel -->
+    <div id="hotels">
+        <div class="hotel_container">
+            <div class="left_container">
+                <div class="text">
+                    Call to action! It's time!
+                </div>
+                <div class="lower">
+                    Sign up for our product by clicking that button right over there!
+                </div>
+            </div>
+            <p class="hotel_button">
+                <a class="click" href="https://www.google.com/search?q=hokkaido+hotel&sca_esv=e3144f6254eef5eb&sxsrf=AHTn8zqsf_mNkVO5MJlcgL35oyTMsxBeVw%3A1740486568205&source=hp&ei=qLe9Z_6SBfri2roP5r-5yAQ&iflsig=ACkRmUkAAAAAZ73FuHnkN6x_ydtXBKVqTrE26Ms46kkr&ved=0ahUKEwj-hoLd6d6LAxV6sVYBHeZfDkkQ4dUDCBg&uact=5&oq=hokkaido+hotel&gs_lp=Egdnd3Mtd2l6Ig5ob2trYWlkbyBob3RlbDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHki9AlAAWABwAHgAkAEAmAF7oAF7qgEDMC4xuAEDyAEA-AEC-AEBmAIBoAKCAZgDAJIHAzAuMaAHtgM&sclient=gws-wiz" target="_blank" rel="noopener noreferrer">
+                    Look for hotel
+                </a>
+            </p>
+            
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        Copyright @ The Oding Project 2021
     </div>
     
 </body>
